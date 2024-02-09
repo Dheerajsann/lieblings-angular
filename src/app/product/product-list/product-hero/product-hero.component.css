@@ -1,0 +1,11 @@
+._hero__content {
+  background-color: #5D0F29;
+  position: relative;
+}
+._hero__particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}/*# sourceMappingURL=product-hero.component.css.map */

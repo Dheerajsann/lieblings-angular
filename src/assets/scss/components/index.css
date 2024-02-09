@@ -1,0 +1,140 @@
+.ll-product__name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  min-height: 55px;
+}
+.ll-product__name a {
+  color: #666666;
+}
+.ll-product__name a:hover {
+  color: var(--accent);
+  transition: all 0.3s ease-out;
+}
+.ll-product__creator {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 21px;
+  color: #666666;
+  margin-bottom: 12px;
+}
+.ll-product__price {
+  font-size: 20px;
+  line-height: 30px;
+}
+.ll-product__price-label {
+  font-size: 18px;
+  line-height: 19px;
+  color: #848484;
+}
+.ll-product__action {
+  border-top: 1px solid #D6D6D6;
+}
+.ll-product__action div:first-child {
+  border-right: 1px solid #D6D6D6;
+}
+
+.ll-find-more .container {
+  background-color: #E9D0F9;
+  padding: 60px;
+}
+.ll-find-more__heading {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+}
+.ll-find-more ._card {
+  max-width: 450px;
+  padding: 40px;
+}
+.ll-find-more ._card__title {
+  font-size: 25px;
+  line-height: 35px;
+}
+.ll-find-more ._card__subtitle {
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.ll-dataset {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ll-dataset__label {
+  width: 100%;
+  max-width: 100%;
+  font-weight: 600;
+  color: #333;
+}
+.ll-dataset__value {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .ll-dataset__label {
+    max-width: 170px;
+  }
+  .ll-dataset__value {
+    max-width: calc(100% - 170px);
+  }
+}
+.table-inside {
+  overflow-x: auto;
+}
+.table-inside table {
+  width: 100%;
+  color: #495058;
+}
+.table-inside table tr {
+  min-height: 40px;
+}
+.table-inside table td,
+.table-inside table th {
+  @apply px-4;
+}
+.table-inside table th {
+  @apply font-medium;
+  @apply py-3;
+}
+.table-inside table td {
+  @apply py-2;
+}
+.table-inside .action_icon__btn {
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+}
+.table-inside .action_icon__btn .mat-icon {
+  font-size: 16px;
+  line-height: 16px;
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 1439px) {
+  .table-inside .ltXxl\:responsive {
+    width: 1439px;
+  }
+}
+@media (max-width: 1199px) {
+  .table-inside .ltXl\:responsive {
+    width: 1199px;
+  }
+}
+@media (max-width: 991px) {
+  .table-inside .ltLg\:responsive {
+    width: 991px;
+  }
+}
+@media (max-width: 767px) {
+  .table-inside .ltMd\:responsive {
+    width: 767px;
+  }
+}
+@media (max-width: 575px) {
+  .table-inside .ltSm\:responsive {
+    width: 575px;
+  }
+}/*# sourceMappingURL=index.css.map */

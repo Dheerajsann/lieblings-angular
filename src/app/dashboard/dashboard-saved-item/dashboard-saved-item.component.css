@@ -1,0 +1,17 @@
+::ng-deep .mat-card-header-text {
+  margin: 0 !important;
+}
+
+.view__btn,
+.action_icon__btn {
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+}
+.view__btn .mat-icon,
+.action_icon__btn .mat-icon {
+  font-size: 22px;
+  line-height: 22px;
+  width: 22px;
+  height: 22px;
+}/*# sourceMappingURL=dashboard-saved-item.component.css.map */
